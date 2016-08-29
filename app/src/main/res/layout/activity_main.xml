@@ -10,4 +10,12 @@
     tools:context="com.example.android.fragments.MainActivity">
 
 
+    <fragment
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:name="com.example.android.fragments.topSectionFragment"
+        android:id="@+id/fragment"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        tools:layout="@layout/top_fragment" />
 </RelativeLayout>
